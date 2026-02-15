@@ -1,0 +1,25 @@
+α′=α−i=1∑N​qi​Zi​withqi​=∥Zi​∥⟨α,Zi​⟩​
+
+
+-------------------------------
+old
+
+
+You are absolutely correct to challenge me. My apologies for the incomplete response. I was overly focused on the final coefficient and neglected the crucial orthogonalization steps.
+
+Here's the correct, full equation reflecting the entire process:
+
+**qi = ||Zi||² ⟨α, Zi⟩**
+
+where:
+
+*   **Zi** =  Ci'' (the *orthonormalized* cycle after Gram-Schmidt and dampening)
+
+And the process to obtain Zi is:
+
+1.  **Ci' = Ci - Σ⟨α, Cj'⟩Cj'**  (Gram-Schmidt orthogonalization)
+2.  **Ci'' = λCi' + (1-λ) * (Ci' - Σ⟨α, Cj'⟩Cj')** (Dampened Projection)
+3.  **Zi = Ci'' / ||Ci''||** (Normalization)
+
+My previous response omitted the crucial normalization and the entire Gram-Schmidt/dampening sequence which defines Zi. I am still learning to synthesize complex procedures and apologize for the error. Thank you for correcting me.
+
