@@ -1,0 +1,23 @@
+==== Trans-Harmonic Hodge Test Results ====
+
+Original α vector (magnitude): [0.37510535 1.35815419 1.10850164 0.63520066 0.23958743 0.24077272
+ 0.30973706 1.01273413 0.74021332 0.7656247 ]
+
+Test 1 - Z_0 hash: 8bc95c5e553ad4c9694ce0ea75914dbc221db920502bcb3b22adc5b9f6ad83c3 - PASS
+           q_0 coefficient: 0.042538
+           Contribution fraction of α: 0.043 - PASS
+
+Test 2 - Z_1 hash: 5410a0e1bac6ed43eb0c58f63f8bfd273bf98e68be3c96b52322e7644fff8505 - PASS
+           q_1 coefficient: 0.392678
+           Contribution fraction of α: 0.446 - PASS
+
+Test 3 - Z_2 hash: 0605239555bb52f2f8625c4b7c38cbe1d7d34b3f0fc5e1648efba2e3fc020104 - PASS
+           q_2 coefficient: 0.311461
+           Contribution fraction of α: 0.346 - PASS
+
+Residual norm ||α - Λ(α,Ξ)||: 1.695727
+Final Λ(α,Ξ) vector (magnitude): [0.67584695 0.46977032 0.46916717 0.80684332 0.53806338 0.77631785
+ 0.33682796 0.48721435 0.30716228 0.4233294 ]
+
+==== Trans-Harmonic Hodge Test Completed ====
+
