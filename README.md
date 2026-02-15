@@ -39,13 +39,3 @@ The **tester computes:**
 2. The weighted sum \(Σ q_i Φ(Z_i)\).  
 3. The difference Δ = Φ(α) - Σ q_i Φ(Z_i).  
 4. Solves for all α satisfying Δ = 0, producing exact symbolic solutions.
-
----
-
-## 🔬 How It Works
-
-1. **Define Φ**  
-   Φ can be any symbolic function. The default placeholder is:
-
-   ```python
-   Φ(x) = x**2 + 1
