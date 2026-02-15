@@ -34,12 +34,4 @@ This approach allows for **stable iterative projections**, suitable for theoreti
 - **Verbose or silent modes**: Customize audit outputs for research logging or automated pipelines.  
 - **Configurable damping & thresholds**: Prevents overflow and ensures controlled convergence.  
 
----
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/RomanAILabs/romanai-projection.git
-cd romanai-projection
